@@ -6,6 +6,7 @@ public class GridSystemVisualSingle : MonoBehaviour
 {
     [SerializeField] private MeshRenderer meshRenderer;
 
+
     public void Show()
     {
         meshRenderer.enabled = true;
@@ -15,6 +16,5 @@ public class GridSystemVisualSingle : MonoBehaviour
     {
         meshRenderer.enabled = false;
     }
-
 
 }
