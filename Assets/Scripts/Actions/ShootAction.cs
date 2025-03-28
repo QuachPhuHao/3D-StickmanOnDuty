@@ -89,7 +89,7 @@ public class ShootAction : BaseAction
             shootingUnit = unit
         });
 
-        targetUnit.Damage();
+        targetUnit.Damage(48);
     }
 
 
