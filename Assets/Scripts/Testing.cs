@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Testing : MonoBehaviour
 {
@@ -15,10 +16,10 @@ public class Testing : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
-            GridSystemVisual.Instance.HideAllGridPosition();
-            //GridSystemVisual.Instance.ShowGridPositionList(
-            //unit.GetMoveAction().GetValidActionGridPositionList());
+
+
         }
+
     }
 
 }
